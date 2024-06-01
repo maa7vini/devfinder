@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon_github.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="title_container">
+
+            <h2> devfinder </h2>
+
+        </div>
+
+        <div class="input_container">
+
+            <div class="input_div">
+                <img src="https://icones.pro/wp-content/uploads/2021/06/icone-loupe-bleu.png" alt="Icone Lupa"/>
+
+                <input type="text" id="username" placeholder="Digite o perfil do GitHub...">
+            </div>
+
+            <div class="button_div">
+                <button id="procurarUser" > Procurar </button>
+            </div>
+
+        </div>
+        
+        <div class="result_container">
+
+            <div class="avatar_container">
+
+                <img id="avatar" width="100"/>
+
+            </div>
+
+            <div class="info_container">
+
+                <div class="nome_e_local">
+
+                    <div>
+                        <label>Nome:</label>
+                        <h2 id="nome"></h2>
+                    </div>
+
+
+                    <div>
+                        <label>Localização:</label>
+                        <h2 id="localizacao"></h2>
+                    </div>
+
+                </div>
+
+                <div class="biografia">
+                    
+                    <label>Biografia:</label>
+                    <p id="bio"></p>
+
+                </div>
+
+                <div class="repos_followers_following">
+
+                    <div class="repos">
+                        <label>Repositorios:</label>
+                        <h2 id="repos"></h2>
+                    </div>
+                    
+                    <div class="seguidores">
+                        <label>Seguidores:</label>
+                        <h2 id="followers"></h2>
+                    </div>
+
+                    <div class="seguindo">
+                        <label>Seguindo:</label>
+                        <h2 id="following"></h2>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
