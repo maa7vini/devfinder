@@ -163,11 +163,6 @@ body {
     color: rgb(158, 158, 158);
 }
 
-#arroba h1 {
-    font-size: 20px;
-    color: white;
-}
-
 @media(max-width: 1024px) {
     body {
         height: 100%;
